@@ -1,0 +1,22 @@
+{
+  "name": "normalizerdms",
+  "version": "1.0.0",
+  "description": "Package for neatly organizing the Rows returned from RDMS in to nested JSON Object & Arrays.",
+  "main": "normalize.js",
+  "scripts": {
+    "test": "mocha -t 5000 -s 100 --reporter spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UmerIftikhar/normalizerdms.git"
+  },
+  "author": "Umer Iftikhar",
+  "license": "MIT",
+  "dependencies": {
+    "dottie": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
