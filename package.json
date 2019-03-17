@@ -2,7 +2,7 @@
   "name": "normalizerdms",
   "version": "1.0.1",
   "description": "Package for neatly organizing the Rows returned from RDMS in to nested JSON Object & Arrays.",
-  "main": "normalize.js",
+  "main": "normalizerdms.js",
   "scripts": {
     "test": "mocha -t 5000 -s 100 --reporter spec test"
   },
